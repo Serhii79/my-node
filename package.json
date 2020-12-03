@@ -1,0 +1,30 @@
+{
+  "name": "my-node",
+  "version": "1.0.0",
+  "description": "Create the new repository my-node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "babel src -d lib",
+    "calc": "OpenWith calculator:",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serhii79/my-node.git"
+  },
+  "author": "SERHII <ss1979@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serhii79/my-node/issues"
+  },
+  "homepage": "https://github.com/Serhii79/my-node#readme",
+  "dependencies": {
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7"
+  }
+}
